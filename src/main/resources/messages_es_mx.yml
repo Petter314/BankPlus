@@ -1,0 +1,57 @@
+# Archivo de mensajes en español
+#
+# Creado por Pulsi_
+
+# Placeholders
+# %amount% -> Formato de número con comas
+# %amount_long% -> Número sin procesar
+# %amount_formatted% -> Formato de numero largo
+# %amount_formatted_long% -> Formato de número sin "."
+# %player_name% -> Nombre del jugador
+
+# Sistema
+Reload: "&a&lBank&9&lPlus &aYa se recargo!"
+Error: "&a&lBank&9&lPlus &cok, en algo la cagaste..."
+Unknown-Command: "&a&lBank&9&lPlus &cUnknown Command!"
+Interest-Restarted: "&a&lBank&9&lPlus &arestaurado, la cagaste ?"
+Interest-Disabled: "&a&lBank&9&lPlus &cNo puedes usar los intereses, checa la configuracion!"
+Interest-Usage: "&a&lBank&9&lPlus &aUsage: /bank interest restaurado"
+
+# Error
+Specify-Number: "&a&lBank&9&lPlus &cque numero es ese?"
+Specify-Player: "&a&lBank&9&lPlus &cno se quien es .-."
+Not-Player: "&a&lBank&9&lPlus &cseguro es esa persona?"
+Invalid-Number: "&a&lBank&9&lPlus &cporfavor escribe correcto"
+Insufficient-Money-Withdraw: "&a&lBank&9&lPlus &cNo tienes money para retirar!"
+Insufficient-Money-Deposit: "&a&lBank&9&lPlus &cNo tienes money para depositar!"
+No-Permission: "&a&lBank&9&lPlus &chey!!!, no puedes hacer eso!"
+Cannot-Deposit-Anymore: "&a&lBank&9&lPlus &ceso no puedes depocitar!"
+Cannot-Use-Bank-Here: "&a&lBank&9&lPlus &cPerdon!, el banco no tiene jurisdicción aca!"
+Cannot-Use-Negative-Number: "&a&lBank&9&lPlus &cNo se pueden usar numero negativos!"
+Minimum-Number: "&a&lBank&9&lPlus &cPorfavor una un numero mas grande! ( min: %minimum% )"
+
+# Plugin
+Personal-Bank: "&a&lBank&9&lPlus &aTienes &f%amount_formatted% monedas &aen tu banco."
+Success-Withdraw: "&a&lBank&9&lPlus &aRetiro exitoso de &f%amount_formatted% Monedas&a!"
+Success-Deposit: "&a&lBank&9&lPlus &aDepósito exitoso de &f%amount_formatted% Monedas&a!"
+Bank-Others: "&a&lBank&9&lPlus &f%player_name% &aTienes &f%amount_formatted% Monedas &aen el banco!"
+Set-Message: "&a&lBank&9&lPlus &aYou have set &f%player_name%'s &abank balance to &f%amount_formatted%&a!"
+Add-Message: "&a&lBank&9&lPlus &aYou have added &f%amount_formatted% Money &ato &f%player_name%'s &abank balance!"
+Remove-Message: "&a&lBank&9&lPlus &aYou have removed &f%amount_formatted% Money &ato &f%player_name%'s &abank balance!"
+Chat-Deposit: "&a&lBank&9&lPlus &aEscribe la cantidad que quieres depósitar, en caso contrario dale 1"
+Chat-Withdraw: "&a&lBank&9&lPlus &aEscribe la cantidad que quieres Retirar, en caso contrario dale 1"
+Title-Custom-Amount:
+  Enabled: true
+  Title-Deposit: "&fType in &achat &fan, amount to &adeposit"
+  Title-Withdraw: "&fType in &achat &fan, amount to &awithdraw"
+Interest-Broadcast:
+  Enabled: true
+  Message: "&a&lBank&9&lPlus &aHas ganado &f%amount_formatted% Monedas &apor intereses!"
+  No-Money: "&a&lBank&9&lPlus &aLastima pero no tienes dinero"
+Help-Message:
+  - "&a&lBank&9&lPlus &apagina de ayuda"
+  - "&a/bank deposit <Cantidad> &7Depositas una cantidad de dinero."
+  - "&a/bank withdraw <Cantidad> &7Retiras una cantidad de dinero."
+  - "&a/bank view <Jugador> &7Ver el balance de un jugador"
+  - "&7Plugin hecho por Pulsi_"
+  - "&adale 5 estrellas porfas"
